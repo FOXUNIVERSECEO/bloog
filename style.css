@@ -153,7 +153,7 @@ justify-content: space-between;
      .logos{
         
         
-        color: #201e1ea0;
+        color: #0e0d0dc9;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -163,5 +163,5 @@ justify-content: space-between;
 
      }
      .logos:hover{
-        color: #201d1dfa;
+        color: #e6dcdcc3;
      }

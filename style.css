@@ -8,9 +8,13 @@
 }
 body{
     background-image: url(./image/land.jpg);
+
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: cover;
     flex-wrap: wrap;
+    
+}
+.logo{
     
 }
 .logo a{
@@ -66,25 +70,98 @@ transition: all 0.3 ease 0s;
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        
+       
 justify-content: space-between;
        
     }
+    img{
+        margin-left: 100px;
+        width: 100px;
+        height: 100px;
+        border-radius: 20%;
+        margin-top: 5px;
+    }
+    img:hover{
+        border: 2px solid gold;
+    }
     .card{
-        border: 1px ;
+        border: 1px solid rgba(203, 167, 167, 0.685);
         border-radius: 10px;
-        height: 200px;
+        border-top-left-radius:30px;
+        
+        height: 300px;
         width: 300px;
+        
         max-width: 60%;
+        margin: 10px;
         overflow: hidden;
         position: relative;
-        
+        background-color: #fff;
         flex-wrap: wrap; 
         
     }
+    .card h1{
+        color: #900c3f;
+        /* background-color: rgb(207, 222, 222); */
+        text-align: center;
+        font-family: monospace;
+        font-size: x-large;
+        font-weight: 700;
+        text-shadow: #21211e;
+        letter-spacing: 3px;
+        
+    }
+    .card:hover{
+        
+        background-color:#d0c4c9;
+        transform: scale(1.05);
+        border: 2px solid #fff;
+    }
     .carditem h1{
-        color: #d0c4c9;
+        /* color: #d0c4c9; */
     }
      .carditem  p{
-        color: #eccb22;
+        padding: 10px;
+        color: #21211e;
+     }
+     footer{
+        background-color: rgb(155, 141, 141);
+        color: white;
+     }
+     /* CADR IMAGE ANCHOR TAG */
+     .cardanchor{
+        text-decoration: none;
+        height: 20px;
+        width: 20px;
+        color: rgb(65, 68, 71);
+        background-color:transparent;
+        border-radius: 10px;
+        border: 2px solid gainsboro ;
+        font-size: bold;
+        padding: 5px;
+        font-weight: 700;
+        margin-left: 100px;
+     }
+     .cardanchor:hover{
+    
+        
+        background-color: transparent;
+    
+        border: 2px solid rgba(24, 21, 21, 0.833);
+     }
+     /* logo */
+     .logos{
+        
+        
+        color: #201e1ea0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 250px; 
+        letter-spacing: 20px;
+        height: 150px;
+
+     }
+     .logos:hover{
+        color: #201d1dfa;
      }

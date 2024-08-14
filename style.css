@@ -125,8 +125,11 @@ justify-content: space-between;
         color: #21211e;
      }
      footer{
-        background-color: rgb(155, 141, 141);
+        background-color: rgba(193, 181, 181, 0.626);
         color: white;
+     }
+     footer a{
+        color: #21211e;
      }
      /* CADR IMAGE ANCHOR TAG */
      .cardanchor{

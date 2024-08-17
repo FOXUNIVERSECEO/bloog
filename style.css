@@ -62,7 +62,7 @@ display: flex;
     text-align: center;
 }
 .header{
-    background-color: rgb(45, 228, 241);
+    background-color: rgb(244, 166, 10);
     height: 80px;
 
 } 
@@ -177,7 +177,7 @@ background: gold;
 @media all and (min-width:800px){
     .main{
         
-        flex:7;
+        flex:3;
     }
     .aside1{
         order: 1;
@@ -186,7 +186,7 @@ background: gold;
         order: 2;
     }
     .main{
-        order: 2;
+         order: 2; /*1 */
     }
     .footer{
         order: 4;
@@ -197,4 +197,43 @@ background: gold;
         flex: 1;
     }
 
+ }
+/*animet head */
+.animet{
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    background:rgb(244, 166, 10);
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+}
+#title{
+    position: relative;
+    font-size:6em ;
+    letter-spacing: 15px;
+    color: rgba(83, 72, 72, 0.103);
+    text-transform: uppercase;
+    width: 100%;
+    line-height: 0.70em;
+    overflow: hidden;
+    outline: none;
+    animation: animate 5s linear infinite;
+    text-align: center;
+
+    -webkit-box-reflect: below 2px linear-gradient(transparent,#0004);
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+   {color:#47635f5b;
+text-shadow: none;} 
+   18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+     0 0 20px #03bcf4,
+     0 0 40px #03bcf4,
+     0 0 80px #03bcf4,
+     0 0 160px #03bcf4,
+}
 }

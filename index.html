@@ -1,94 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible"content="ie=edge"/>
-   <title>Document</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend Blogger</title>
+    <!-- Box-icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="wrapper"> 
-<header class="header">
-  <div class="navigation">
-   <ul><li><a href="">HOME</a></li>
-  <li><a href="">ABOUT</a></li>
-  </div>
-</header>
-<div class="animet">
-   <h2 id="title" >PMAMA BLOG</h2> 
- </div>
-  
-<article class="main">
-   <div class="carditem">
-       <div class="card">
-           <img src="./image/oppo.jpg" alt="">
-           <h1> Reno12 Series!</h1>
-           <p>The stylish Oppo Reno12 series has made its European debut, and the Reno12 Pro is here for review. Oppo has focused more on aesthetics, and the target audience is mostly the young and social media content creators.</p>
-       <a class="cardanchor" href="https://www.oppo.com/in/smartphones/series-reno/reno12-pro/">CLICK ME</a>
-       </div>
-   
-   <div class="card">
-       <img src="./image/SONY.jpg" alt="">
-       <h1>Sony WH-1000XM4</h1>
-       
-       <p>
-           The best Sony headphones are ubiquitous on subways, flights or busy streets. It's impossible to avoid them. Sony's headphones & earbuds  performance, price & comfort extremely well, which why they're as popular now as 40 years ag
-           </p>
-       <a class="cardanchor" href="https://www.techradar.com/best/sony-headphones">CLICK ME</a>
-       </div>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Code <span>myhobby</span></a>
+            <a href="#" class="login">Sign Up</a>
+        </div>
+    </header>
 
-<div class="card">
-<img src="./image/lapt.jpg" alt="">
-   <h1>HP PRO BOOK</h1>
-   
-   <p>HP ProBook 400 series. Commercial performance, security, and durability. Keep your business growing with the durable, commercial-grade HP ProBook laptop—a device that’s well-equipped for hybrid work.</p>
-   <a class="cardanchor" href="https://www.hp.com/in-en/laptops/business/probooks.html?msockid=130829098b19645737693db68aab65ef">CLICK ME</a>
-</div>
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Trend Blogger</h2>
+            <span class="home-subtitle">Your source of great content</span>
+        </div>
+    </section>
 
-<div class="card">
-<img src="./image/de.jpg" alt="">
-<h1>DE-TAN</h1>
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Catch up with the trending topics</h2>
+            <p class="title-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eos consequuntur voluptate dolorum totam provident ducimus cupiditate dolore doloribus repellat. Saepe ad fugit similique quis quam. Odio suscipit incidunt distinctio.
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed blanditiis libero pariatur ipsum suscipit voluptates aut, repellendus quos dolor autem, natus laboriosam consectetur maxime cumque, sunt magni optio? Veritatis, ea?
+            </p>
+            <a href="#" class="btn2">Read more</a>
+        </div>
+        <div class="imgBx">
+            <img src="./images/about.png" alt="" class="fitBg">
+        </div>
+    </section>
 
-<p>Removes dead skin cells, promoting a brighter appearance. Diminishes signs of aging, such as fine lines and dark spots.</p>
-<a class="cardanchor" href="https://www.tirabeauty.com/product/beardo-de-tan-face-gel-50g-gopyqlrx2h3?msclkid=73aa154544c419f9c04073f9a871c736&utm_source=bing&utm_medium=cpc&utm_campaign=Vib_Tira_Shopping_All%20Products&utm_term=4580909054023105&utm_content=Ad%20group%20%231">CLICK ME</a>
-</div>
+    <div class="post-filter container">
+        <span class="filter-item active-filter" data-filter="all">All</span>
+        <span class="filter-item" data-filter="tech">Tech</span>
+        <span class="filter-item" data-filter="food">Food</span>
+        <span class="filter-item" data-filter="news">News</span>
+    </div>
+    
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box tech">
+            <img src="images/img1.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box food">
+            <img src="images/img2.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box food">
+            <img src="images/img3.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box news">
+            <img src="images/img4.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box tech">
+            <img src="images/img5.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box news">
+            <img src="images/img4.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box tech">
+            <img src="images/img7.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 1 -->
+        <div class="post-box news">
+            <img src="images/img8.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box food">
+            <img src="images/img10.jpg" alt="" class="post-img">
+            <h2 class="category">Food</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.png" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+    </div>
 
-<div class="card">
-<img src="./image/face.jpg" alt="">
-<h1>De Tan Face Cream</h1>
+    <footer>
+        <div class="footer-container">
+            <div class="sec aboutus">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam veritatis.</p>
+                <ul class="sci">
+                    <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                    <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="sec quicklinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="sec contactBx">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class='bx bxs-map'></i></span>
+                        <span>6444 London street <br> Brighton PA 33445 <br> Uk</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-envelope' ></i></span>
+                        <p><a href="mailto:codemyhobby9@gmail.com">Codemyhobby9@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
-<p>· Globus Naturals De Tan Face Cream helps to remove stubborn tan lines and manage uneven skin tone. It is enriched with natural ingredients like lemon, rose, pomegranate and orange that gently.</p>
-<a class="cardanchor" href="https://www.tirabeauty.com/product/globus-naturals-de-tan-face-cream-enriched-with-pineapple-grapes-100g-7567693?msclkid=172cb6a5ef741ee895a9d01903c1ec2b&utm_source=bing&utm_medium=cpc&utm_campaign=Vib_Tira_Shopping_All%20Products&utm_term=4580909054023294&utm_content=Ad%20group%20%231">CLICK ME</a>
-</div>
-
-<div class="card">
-<img src="./image/tol.jpg" alt="">
-<h1>LAPTOP TOOLS</h1>
-
-<p>Grab a computer toolkit or opt for individual screwdrivers, brushes, tweezers, cable organizers, thermal paste, and testing tools for your specific needs.</p>
-<a class="cardanchor" href="https://www.ifixit.com/Tools/PC">CLICK ME</a>
-
-</div> 
-
-</div>
-</article>
-<!-- <aside class=" aside aside1">
-   <h1>aside1</h1>
-</aside>
-<aside class=" aside aside2">
-   <h1>aside2</h1>
-</aside> -->
-<footer class="footer">
-   <div class="footer-content">
-       <p>&copy; 2023 FOXUNIVERSE PMAMA SITE</p>
-       <ul>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Contact</a></li>
-         <li><a href="#">Terms of Use</a></li>
-       </ul>
-     </div>
-</footer>
-   </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
 </body>
 </html>

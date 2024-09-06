@@ -4,91 +4,237 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible"content="ie=edge"/>
-   <title>Document</title>
+   <title>Mapma-blog</title>
+   <!-- new -->
+   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+   <!-- bootstrap link start-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- bootstrap link end -->
+    <!-- new -->
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="wrapper"> 
-<header class="header">
-  <div class="navigation">
-   <ul><li><a href="">HOME</a></li>
-  <li><a href="">ABOUT</a></li>
-  </div>
-</header>
-<div class="animet">
-   <h2 id="title" >PMAMA BLOG</h2> 
- </div>
-  
-<article class="main">
-   <div class="carditem">
-       <div class="card">
-           <img src="./image/oppo.jpg" alt="">
-           <h1> Reno12 Series!</h1>
-           <p>The stylish Oppo Reno12 series has made its European debut, and the Reno12 Pro is here for review. Oppo has focused more on aesthetics, and the target audience is mostly the young and social media content creators.</p>
-       <a class="cardanchor" href="https://www.oppo.com/in/smartphones/series-reno/reno12-pro/">CLICK ME</a>
-       </div>
-   
-   <div class="card">
-       <img src="./image/SONY.jpg" alt="">
-       <h1>Sony WH-1000XM4</h1>
-       
-       <p>
-           The best Sony headphones are ubiquitous on subways, flights or busy streets. It's impossible to avoid them. Sony's headphones & earbuds  performance, price & comfort extremely well, which why they're as popular now as 40 years ag
-           </p>
-       <a class="cardanchor" href="https://www.techradar.com/best/sony-headphones">CLICK ME</a>
-       </div>
+    <div class="container- main-container" id="main" >
+        <!-- header start -->
+         <div class="container-">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+        <i><b>Mapma blog</b></i>  
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#trends">TRENDING</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#RECENT-POST">RECENT-POST</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    </div> 
+           <!-- header end -->   
+            <!-- landing page -->
+              <div class="container- landing-page"> 
 
-<div class="card">
-<img src="./image/lapt.jpg" alt="">
-   <h1>HP PRO BOOK</h1>
-   
-   <p>HP ProBook 400 series. Commercial performance, security, and durability. Keep your business growing with the durable, commercial-grade HP ProBook laptop—a device that’s well-equipped for hybrid work.</p>
-   <a class="cardanchor" href="https://www.hp.com/in-en/laptops/business/probooks.html?msockid=130829098b19645737693db68aab65ef">CLICK ME</a>
-</div>
+             <!-- <div class=""> -->
+             <div class="content">
+           <div class="title"><h1>Welcome to Mapma blog</h1></div>
+           <div class="para"><p>Explore the latest insights, tips, and trends on [ELECTRONIC & COSMETIC]. <br> Whether you’re looking for expert advice, thoughtful reviews, or engaging stories,<br> you’ve come to the right place. Dive into our latest posts and join our vibrant community of audience.</p></div>
+     <span>      <a id="landing-button" href="#trends">Explore</a></span>
+          </div>
+          <!-- </div> -->
+        </div>
+            <!--   landing page end --> 
+               <!-- trending-page-start -->
+                <div class="container text-center" id="trends"><h2>TRENDING</h2></div>
+               <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100 cards ">
+                      <img src="./image/TABLET ELECTRONIC.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">LCD Writing Tablet</h5>
+                        <p class="card-text">Tinytotem 12 Inch Lcd Writing Tablet For Kids <br> Digital Electronic Drawing Writing Note Pad Magic Slate Digital Doodle Rough Pad With Pen For Girls Boys (Black) <br><a class="a" href="https://www.amazon.in/Tinytotem-Writing-Digital-Electronic-Black/dp/B0D31T23LV/ref=sr_1_2_sspa?adgrpid=1316117076598979&dib=eyJ2IjoiMSJ9.JZ_BLpnvTrx6bDsx2w7XSZ6xQs4ZR-UM1hKc10thwdwGRISzse_CgxpGymNOAYIuroRNhLxV0sX_d2sK0XHlx-un_Rz2wg3Gp8aZ4u1gbssH9BHuvGdpbpCBmO1ViYzV01km_QWRYcu_-gwd2syi1vUxWsLFXY3Bun8tS_eIrA6p2ab85o1PP2dqqzjk6urBia2oXtFajBe6xhqqpoue8NmCdYwmIdfM52eFvujpUWA_XG2EFIP1oNZ2c1ySwfjkP_G0y765w0nHUC5_m06y7Ba482ZfKDf5sE-X_FXWuOQ.yw9U6B_VD1YYZ1hvwPA1tH88-3EtAOEgDAakElFq1Ts&dib_tag=se&hvadid=82257585694257&hvbmt=be&hvdev=c&hvlocphy=143956&hvnetw=o&hvqmt=e&hvtargid=kwd-82258246906610%3Aloc-90&hydadcr=19941_2337972&keywords=electronics&msclkid=daa64008871d170769a526d24f1a75b6&qid=1725614106&s=electronics&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">view</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 cards">
+                      <img src="./image/beat earbud.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Beats Solo Buds</h5>
+                        <p class="card-text">Beats Solo Buds — Wireless Bluetooth Earbuds | 18 Hours of Battery Life | Apple & Android Compatibility | Built-in Microphone - Matt Black <br>
+                        <a href="https://www.amazon.in/Beats-Solo-Buds-Compatibility-Built/dp/B0D3JHB24Q/ref=sr_1_2?dib=eyJ2IjoiMSJ9.palCLfSTklDfh0yjjlyqLvvkEuubNfzppDJ1oQWRwfvOsxBaMfM34hVmNey8eZQZvyDbWs_W4qWWD7jU-NaUiQ.UrSnbB91qzJ0BInIA8t7DF-Y2l4v5gEacoWvYgRFZio&dib_tag=se&pf_rd_i=976419031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=8421978a-6008-468b-9ca0-f0b2d0e42a38&pf_rd_r=Y2XWX9QM8F1RD3TPK6JP&pf_rd_s=merchandised-search-12&qid=1725614751&sr=8-2" class="a">view</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 cards">
+                      <img src="./image/webcamera.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Webcam</h5>
+                        <p class="card-text">Logitech Brio Stream, Ultra 4K HD Video Calling, Optical Zoom, Noise-Canceling mic,HD Auto Light Correction, Works with Microsoft Teams, Zoom, Google Voice, Meet, PC/Mac/Laptop/MacBook/Tablet, Black <br>
+                        <a href="https://www.amazon.in/Logitech-Calling-Noise-Canceling-Correction-Microsoft/dp/B01N5UOYC4?ref_=Oct_d_omwf_d_1375463031_2&pd_rd_w=SvIUY&content-id=amzn1.sym.78f1db53-4ba7-4189-87eb-ee865bdc1bcf&pf_rd_p=78f1db53-4ba7-4189-87eb-ee865bdc1bcf&pf_rd_r=BMH62F3H1QHGZRVKVT4E&pd_rd_wg=54hpM&pd_rd_r=b84548fc-8334-45ba-9d86-eaf30a2bae83&pd_rd_i=B01N5UOYC4" class="a">view</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+               </div>
+              
+                     <!-- trending-page-end -->
+                      <!-- RECENT page START -->
+                       <div class="container text-center" id="RECENT-POST"><h2>RECENT-POST</h2></div>
+                       <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                          <div class="col">
+                            <div class="card h-100 cards">
+                              <img src="./image/413yzxupVTL._SL1001_.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title"> Eyeliner</h5>
+                                <p class="card-text">Maybelline New York Colossal Bold Pencil Eyeliner, Black, 3Ml, Matte Finish
+                                  <br><a href="https://www.amazon.in/Maybelline-York-Colossal-Eyeliner-Black/dp/B07S141T2R/ref=sr_1_20?crid=3MZ0JZYP8R11V&dib=eyJ2IjoiMSJ9.cQIh-NhW04rY2RRCUve1eIhoG5353UmwgeOzS5Jdi8uEHFjzSX98d6CLL_KcOR-Axtj5idoYoAlOB8oGxciv6kwp2qHBNJhiw0RZ1bBShTLOEzcf_LDv42r67g_w7K4U2RN1kelve85Ypr9tN7Vewrqd4pIsLlrWOvb1Z_v-h4CM4xnVjlUPuRjfvOc0yOoPtJXaJEMKY9n_2Hp4sPzwImva7so-h06el-n0kOk2H0sLHcqAZKOaVaamlWKXlcunluMtOQ_zOVu6KJTz-NheHOnBPPjKWYhm9HfpwUtJbqg.MJ0ZFG1ZmhA-MMi_NG984WBGQb8RjJKETftLm3vR48Q&dib_tag=se&keywords=cosmetic&qid=1725615758&sprefix=%2Caps%2C311&sr=8-20" class="a">view</a>
+                                </p>
+                                <!-- <button type="button" class="btn btn-secondary">Secondary</button> -->
+                              </div>
+                              <!-- <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                              </div> -->
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100 cards">
+                              <img src="./image/oil.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">HAIR OIL</h5>
+                                <p class="card-text">Moroccanoil Hair Treatment Oil Bottle With Green Box, 100ml  <br> <a href="https://www.amazon.in/Moroccanoil-Treatment-Bottle-Green-100ml/dp/B001AO0WCG/ref=lp_22159906031_1_1?pf_rd_p=9e034799-55e2-4ab2-b0d0-eb42f95b2d05&pf_rd_r=RXGJW4R9HQXS1XXEH0E4&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D" class="a">view</a></p>
+                              </div>
+                              <!-- <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago</small>
+                              </div> -->
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100 cards">
+                              <img src="./image/bontress.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Hair Revitalising Shampoo</h5>
+                                <p class="card-text">BONTRESS Hair Revitalising Shampoo, White, 150 ml
+                                  <br><a href="https://www.amazon.in/dp/B01C6WPUB8/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B01C6WPUB8&pd_rd_w=p1mCj&content-id=amzn1.sym.9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_p=9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_r=T5CGNR94ZM3BK3G45RK8&pd_rd_wg=ZNHR3&pd_rd_r=e1079ed1-2838-449f-87dc-7e7daada2735&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM" class="a">view</a>
+                                </p>
+                              </div>
+                              <!-- <div class="card-footer">
+                                <small class="text-body-secondary">Last updated 3 mins ago
+                                
+                                </small>
+                              </div> -->
+                            </div>
+                          </div>
+                        </div>
+                       </div>
+                          <!-- RECENT page END -->
+                       <!-- footer start -->
+                        <div class="container">
+                       <footer class="text-center bg-body-tertiary">
+                        <!-- Grid container -->
+                        <div class="container pt-4">
+                          <!-- Section: Social media -->
+                          <section class="mb-4">
+                            <!-- Facebook -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-facebook-f"></i
+                            ></a>
+                      
+                            <!-- Twitter -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-twitter"></i
+                            ></a>
+                      
+                            <!-- Google -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-google"></i
+                            ></a>
+                      
+                            <!-- Instagram -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                      
+                            <!-- Linkedin -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-linkedin"></i
+                            ></a>
+                            <!-- Github -->
+                            <a
+                              data-mdb-ripple-init
+                              class="btn btn-link btn-floating btn-lg text-body m-1"
+                              href="#!"
+                              role="button"
+                              data-mdb-ripple-color="dark"
+                              ><i class="fab fa-github"></i
+                            ></a>
+                          </section>
+                          <!-- Section: Social media -->
+                        </div>
+                        <!-- Grid container -->
+                      
+                        <!-- Copyright -->
+                        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                          © 2020 Copyright:
+                          <a class="text-body a" href="https://Mapma.com/">Mapma.com</a>
+                        </div>
+                        <!-- Copyright -->
+                      </footer>
+                        <!-- footer ends -->
+                      </div>
 
-<div class="card">
-<img src="./image/de.jpg" alt="">
-<h1>DE-TAN</h1>
-
-<p>Removes dead skin cells, promoting a brighter appearance. Diminishes signs of aging, such as fine lines and dark spots.</p>
-<a class="cardanchor" href="https://www.tirabeauty.com/product/beardo-de-tan-face-gel-50g-gopyqlrx2h3?msclkid=73aa154544c419f9c04073f9a871c736&utm_source=bing&utm_medium=cpc&utm_campaign=Vib_Tira_Shopping_All%20Products&utm_term=4580909054023105&utm_content=Ad%20group%20%231">CLICK ME</a>
-</div>
-
-<div class="card">
-<img src="./image/face.jpg" alt="">
-<h1>De Tan Face Cream</h1>
-
-<p>· Globus Naturals De Tan Face Cream helps to remove stubborn tan lines and manage uneven skin tone. It is enriched with natural ingredients like lemon, rose, pomegranate and orange that gently.</p>
-<a class="cardanchor" href="https://www.tirabeauty.com/product/globus-naturals-de-tan-face-cream-enriched-with-pineapple-grapes-100g-7567693?msclkid=172cb6a5ef741ee895a9d01903c1ec2b&utm_source=bing&utm_medium=cpc&utm_campaign=Vib_Tira_Shopping_All%20Products&utm_term=4580909054023294&utm_content=Ad%20group%20%231">CLICK ME</a>
-</div>
-
-<div class="card">
-<img src="./image/tol.jpg" alt="">
-<h1>LAPTOP TOOLS</h1>
-
-<p>Grab a computer toolkit or opt for individual screwdrivers, brushes, tweezers, cable organizers, thermal paste, and testing tools for your specific needs.</p>
-<a class="cardanchor" href="https://www.ifixit.com/Tools/PC">CLICK ME</a>
-
-</div> 
-
-</div>
-</article>
-<!-- <aside class=" aside aside1">
-   <h1>aside1</h1>
-</aside>
-<aside class=" aside aside2">
-   <h1>aside2</h1>
-</aside> -->
-<footer class="footer">
-   <div class="footer-content">
-       <p>&copy; 2023 FOXUNIVERSE PMAMA SITE</p>
-       <ul>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Contact</a></li>
-         <li><a href="#">Terms of Use</a></li>
-       </ul>
-     </div>
-</footer>
-   </div>
+    </div> 
 </body>
+<!-- bootstrap link start-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <!-- bootstrap link end -->
+
+<script src="./main.js"></script>
 </html>
